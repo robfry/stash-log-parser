@@ -1,3 +1,6 @@
 language: haskell
 before_install:
     - "cd logparser"
+    - "cabal update"
+    - "cabal install cabal-install"
+    - "cabal --version"
